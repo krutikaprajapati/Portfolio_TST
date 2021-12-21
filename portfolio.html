@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | TST</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
+    <link rel="stylesheet" href="assets/css/testimonial.css">
+
+    <!-- Bootstarp 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Iconify Icon -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+    <!-- Cloud Flare Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Cursor -->
+    <div class="inner-cursor"></div>
+    <div class="outer-cursor"></div>
+
+    <!-- pre loader -->
+    <div class="loading" id="preloader">
+        <div class="loader">
+            <span>Loading...</span>
+        </div>
+    </div>
+
+    <!-- Scroll At The Top Button -->
+    <button onclick="atTheTop()" id="topBtn" title="Go To Top">
+    <span class="iconify" data-icon="ic:outline-expand-less"></span>
+  </button>
+
+
+    <!-- Navbar -->
+    <nav class="pofo-nav mt-3">
+        <div class="container">
+            <h2><a href="home.html">MyPortfolio</a></h2>
+            <div style="border: 2px solid #161831; width: 100%;"></div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Portfolio -->
+        <div class="container my-4 portfolio">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Image Slide -->
+                    <div class="container my-4">
+
+                        <div class="feature">
+                            <figure class="featured-item image-holder r-3-2 transition"></figure>
+                        </div>
+
+                        <div class="gallery-wrapper">
+                            <div class="gallery">
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2 active transition"></figure>
+                                </div>
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                                </div>
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                                </div>
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                                </div>
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2"></figure>
+                                </div>
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                                </div>
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                                </div>
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                                </div>
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                                </div>
+                                <div class="item-wrapper">
+                                    <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="controls">
+                            <button class="move-btn left">&larr;</button>
+                            <button class="move-btn right">&rarr;</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center flex-column">
+                    <br>
+                    <h3><b>Project Details</b></h3>
+                    <br>
+                    <p>Category: App</p>
+                    <p>Name : The StartToday Media</p>
+                    <p>URL : <a href="">www.google.com</a></p>
+                    <p>Duration To Complete : 1 Week</p>
+                    <p>Details :</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, neque architecto veniam ullam placeat officia quia ad nobis cumque cupiditate itaque odio sequi tenetur voluptatum magnam ducimus, quas quibusdam rem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugit soluta omnis officia iusto quia aliquam, tenetur qui nihil dolor ad exercitationem natus, perferendis et nobis laudantium! Expedita consectetur suscipit, ducimus
+                        qui, iure, optio dolorum eligendi accusamus harum cum obcaecati?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Releted Section -->
+        <div class="container my-2">
+            <h2>Related</h2>
+            <div style="border: 2px solid #161831; width: 100%;"></div>
+        </div>
+        <div class="container my-5">
+            <div class="releted">
+                <div class="releted-item">
+                    <div class="content">
+                        <a href="" class="image-class">
+                            <div class="hover-item">
+                                <h3>Boxed Water</h3>
+                                <span>Web</span>
+                            </div>
+                            <img src="assets/img/img_1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="releted-item">
+                    <div class="content">
+                        <a href="" class="image-class">
+                            <div class="hover-item">
+                                <h3>Build Indoo</h3>
+                                <span>App</span>
+                            </div>
+                            <img src="assets/img/img_2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="releted-item">
+                    <div class="content">
+                        <a href="" class="image-class">
+                            <div class="hover-item">
+                                <h3>Cocooil</h3>
+                                <span>software</span>
+                            </div>
+                            <img src="assets/img/img_3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="releted-item">
+                    <div class="content">
+                        <a href="" class="image-class">
+                            <div class="hover-item">
+                                <h3>Nike Shoe</h3>
+                                <span>UI / UX</span>
+                            </div>
+                            <img src="assets/img/img_4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial -->
+        <section class="testimonial text-center my-4">
+            <div class="container">
+
+                <div class="heading white-heading">
+                    Testimonial
+                </div>
+                <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="testimonial4_slide">
+                                <img src="assets/img/person_2.jpg" class="img-circle img-responsive" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book. </p>
+                                <h4>Client 1</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="assets/img/person_1.jpg" class="img-circle img-responsive" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book. </p>
+                                <h4>Client 2</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="assets/img/person_2.jpg" class="img-circle img-responsive" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book. </p>
+                                <h4>Client 3</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ======= Footer Start ======= -->
+    <footer class="text-center text-lg-start ">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span class="copyright"><br>Get connected with us on social networks:</span>
+            </div>
+            <div>
+                <div class="hover-effect1">
+                    <ul>
+                        <li>
+                            <a href="#." title="linkedin"><i class="fa fa-linkedin "></i></a>
+                        </li>
+                        <li>
+                            <a href="#." title="insta"><i class="fa fa-instagram "></i></a>
+                        </li>
+                        <li>
+                            <a href="#." title="Facebook"><i class="fa fa-facebook "></i></a>
+                        </li>
+                        <li>
+                            <a href="#." title="twitter"><i class="fa fa-twitter "></i></a>
+                        </li>
+                        <li>
+                            <a href="#." title="github"><i class="fa fa-github "></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+        </section>
+        <section class="">
+            <div class="container text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fa fa-diamond me-2" style="font-size:25px"></i> Company name
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Capabilities
+                            <div class="underline"><span></span></div>
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">App Development</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Web Development</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">UI / UX</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">IOT</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Portfolio</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">About Us</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Contact</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p class="footer-contact"><i class="fa fa-address-card me-3"></i> New York, NY 10012, US</p>
+                        <p class="footer-contact"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p class="footer-contact"><i class="fa fa-phone me-3"></i>+911234567xyz</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-4 copyright" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="#"> All Rights Reserved</a>
+        </div>
+    </footer>
+    <!-- ======= Footer End ======= -->
+
+    <!-- Bootstrap 5 Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/portfolio.js"></script>
+    <script src="assets/js/testimonial.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Owl Carousel -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+
+</body>
+
+</html>
